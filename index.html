@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Phudu&display=swap" rel="stylesheet">
+    <title>Snake Game</title>
+  </head>
+
+  <body>
+
+    <div class="score-wrapper">
+      <h2 id="score">Score: <span>0</span></h2>
+      <h2 id="high-score">High Score: <span></span></h2>
+    </div>
+    <canvas id="canvas"></canvas>
+
+    <div class="buttons">
+      <button id="left"><i class="fas fa-arrow-left"></i></button>
+      <div class="up-down">
+        <button id="up"><i class="fas fa-arrow-up"></i></button>
+        <button id="down"><i class="fas fa-arrow-down"></i></button>
+      </div>
+      <button id="right"><i class="fas fa-arrow-right"></i></button>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #550779, #09010e);
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.score-wrapper{
+  width: 220px;
+  margin-bottom: 10px;
+}
+
+#score{
+  font-family: 'Phudu', cursive;
+  color: #9bf3f0;
+}
+
+#high-score{
+  font-family: 'Phudu', cursive;
+  color: #9bf3f0;
+}
+
+#canvas {
+  background-color: #4a0d67;
+  box-shadow: 0 0 25px -10px rgba(0, 0, 0, .75);
+  border-radius: 4px;
+}
+
+.buttons{
+  /* display: none; */
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+}
+
+.up-down{
+  display: flex;
+  flex-flow: wrap column;
+}
+
+button{
+  background-color: #4a0d67;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  position: relative;
+  transition: all 0.4s;
+}
+
+button i{
+  color: #9bf3f085;
+  transition: all 0.4s;
+}
+
+button:hover{
+  background-color: #7905af
+}
+
+button:hover i{
+  color: #9bf3f0;
+}
+
+.buttons > button{
+  margin: 5px;
+  padding: 20px;
+}
+
+.up-down > button{
+  margin: 2px;
+  padding: 5px 20px;
+}
